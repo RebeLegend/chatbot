@@ -18,5 +18,6 @@ This repository contains a simple Flask-based chatbot application. The chatbot u
 3. Run `app.py` to start the Flask server.
 4. Access the chatbot through a web browser.
 
+   git clone [github.com/RebeLegend/chatbot]
 Feel free to contribute or use this project as a basis for creating more complex chatbot applications!
 

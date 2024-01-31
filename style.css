@@ -1,0 +1,55 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E90FF; /* Deep sky blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#chat-container {
+    width: 350px;
+    background-color: #2E8B57; /* Sea green container */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+    text-align: center;
+}
+#response {
+    background-color: #6A5ACD; /* Slate blue response area */
+    color: #FFF; /* White text for better readability */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    height: 150px;
+    overflow-y: auto;
+    text-align: left;
+}
+#user_input {
+    width: calc(100% - 90px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+button {
+    width: 60px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #FF6347; /* Tomato red button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #CD5C5C; /* Indian red on hover */
+}
+.avatar {
+    width: 120px; /* Increased size */
+    height: 120px; /* Increased size */
+    background-image: url('RebelTechAvatar.png'); /* Avatar image path */
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
